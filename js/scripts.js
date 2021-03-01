@@ -9,8 +9,10 @@ es.forEach((elem) => {
 
 $('.front').click(function () {
   $(this).parent().toggleClass('flipped');
+  window.navigator.vibrate(200);
 });
 
 $('.back').click(function () {
   $(this).parent().toggleClass('flipped');
+  window.navigator.vibrate(200);
 });
